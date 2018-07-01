@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="message_list"/>
+    <color name="aurora_conv_divider">#ebebeb</color>
+    <color name="aurora_msg_date_text_color">#4e4e4e</color>
+    <color name="aurora_msg_event_text_color">#9D9D9E</color>
+    <color name="aurora_msg_receive_bubble_default_color">#ffffff</color>
+    <color name="aurora_msg_receive_bubble_pressed_color">#c9d3dd</color>
+    <color name="aurora_msg_receive_bubble_selected_color">#d3d9df</color>
+    <color name="aurora_msg_receive_text_color">@color/black</color>
+    <color name="aurora_msg_send_bubble_default_color">#2977fa</color>
+    <color name="aurora_msg_send_bubble_pressed_color">#005af2</color>
+    <color name="aurora_msg_send_bubble_selected_color">#0e63f0</color>
+    <color name="aurora_msg_send_text_color">@color/white</color>
+    <color name="black">#000000</color>
+    <color name="line">#4e4e4e</color>
+    <color name="link_card">#dcd9d9</color>
+    <color name="link_pressed">#dcd9d9</color>
+    <color name="red_packet_bg">#ff911a</color>
+    <color name="red_packet_bg_pressed">#f4a148</color>
+    <color name="red_packet_comments">#ffffff</color>
+    <color name="red_packet_tag">#999999</color>
+    <color name="red_packet_text">#ffe4bf</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="MessageList"><attr format="dimension|reference" name="dateTextSize"/><attr format="color|reference" name="dateTextColor"/><attr format="string|reference" name="dateFormat"/><attr format="dimension|reference" name="datePadding"/><attr format="dimension|reference" name="eventTextSize"/><attr format="color|reference" name="eventTextColor"/><attr format="dimension|reference" name="eventPadding"/><attr format="dimension|reference" name="avatarWidth"/><attr format="dimension|reference" name="avatarHeight"/><attr format="integer" name="showDisplayName">
+            <enum name="HIDE" value="0"/>
+            <enum name="SHOW" value="1"/>
+        </attr><attr format="reference" name="receiveBubbleDrawable"/><attr format="color|reference" name="receiveBubbleColor"/><attr format="color|reference" name="receiveBubblePressedColor"/><attr format="color|reference" name="receiveBubbleSelectedColor"/><attr format="dimension|reference" name="receiveBubblePaddingLeft"/><attr format="dimension|reference" name="receiveBubblePaddingTop"/><attr format="dimension|reference" name="receiveBubblePaddingRight"/><attr format="dimension|reference" name="receiveBubblePaddingBottom"/><attr format="color|reference" name="receiveTextColor"/><attr format="dimension|reference" name="receiveTextSize"/><attr format="reference" name="sendBubbleDrawable"/><attr format="color|reference" name="sendBubbleColor"/><attr format="color|reference" name="sendBubblePressedColor"/><attr format="color|reference" name="sendBubbleSelectedColor"/><attr format="dimension|reference" name="sendBubblePaddingLeft"/><attr format="dimension|reference" name="sendBubblePaddingTop"/><attr format="dimension|reference" name="sendBubblePaddingRight"/><attr format="dimension|reference" name="sendBubblePaddingBottom"/><attr format="color|reference" name="sendTextColor"/><attr format="dimension|reference" name="sendTextSize"/><attr format="float|reference" name="bubbleMaxWidth"/><attr format="reference" name="sendingProgressDrawable"/><attr format="reference" name="sendingIndeterminateDrawable"/><attr format="reference" name="sendVoiceDrawable"/><attr format="reference" name="receiveVoiceDrawable"/><attr format="reference" name="playSendVoiceAnim"/><attr format="reference" name="playReceiveVoiceAnim"/><attr format="reference" name="sendPhotoMsgBg"/><attr format="reference" name="receivePhotoMsgBg"/><attr format="dimension|reference" name="videomessage_radius"/><attr format="reference" name="videomessage_shape"/></declare-styleable>
+    <dimen name="aurora_avatar_padding">6dp</dimen>
+    <dimen name="aurora_height_conv_avatar">50dp</dimen>
+    <dimen name="aurora_height_msg_avatar">42dp</dimen>
+    <dimen name="aurora_message_padding_top">4dp</dimen>
+    <dimen name="aurora_padding_date_text">5dp</dimen>
+    <dimen name="aurora_padding_event_text">5dp</dimen>
+    <dimen name="aurora_padding_receive_text_bottom">2dp</dimen>
+    <dimen name="aurora_padding_receive_text_left">15dp</dimen>
+    <dimen name="aurora_padding_receive_text_right">10dp</dimen>
+    <dimen name="aurora_padding_receive_text_top">2dp</dimen>
+    <dimen name="aurora_padding_send_text_bottom">2dp</dimen>
+    <dimen name="aurora_padding_send_text_left">10dp</dimen>
+    <dimen name="aurora_padding_send_text_right">15dp</dimen>
+    <dimen name="aurora_padding_send_text_top">2dp</dimen>
+    <dimen name="aurora_radius_photo_default">5dp</dimen>
+    <dimen name="aurora_size_date_text">10sp</dimen>
+    <dimen name="aurora_size_event_text">10sp</dimen>
+    <dimen name="aurora_size_receive_text">14sp</dimen>
+    <dimen name="aurora_size_send_text">14sp</dimen>
+    <dimen name="aurora_width_conv_avatar">50dp</dimen>
+    <dimen name="aurora_width_msg_avatar">42dp</dimen>
+    <dimen name="link_radio">6dp</dimen>
+    <dimen name="message_padding">48dp</dimen>
+    <dimen name="photo_width">166dp</dimen>
+    <dimen name="red_packet_comments_size">16sp</dimen>
+    <dimen name="red_packet_image_margin">10dp</dimen>
+    <dimen name="red_packet_radio">3dp</dimen>
+    <dimen name="red_packet_tag_size">10sp</dimen>
+    <dimen name="red_packet_text_size">14sp</dimen>
+    <dimen name="red_packet_top">10dp</dimen>
+    <dimen name="voice_padding">13dp</dimen>
+    <string name="aurora_file_not_found_toast">File not found</string>
+    <string name="aurora_font_fontFamily_medium">sans-serif</string>
+    <string name="aurora_symbol_second">\"</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="ChatHeaderLayout">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ChatHeaderTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ChatMessageInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="aurora_msgitem_date_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/nim_bg_message_tip</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">@dimen/aurora_size_date_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="aurora_msgitem_display_name_style">
+        <item name="android:maxEms">8</item>
+        <item name="android:layout_marginLeft">@dimen/aurora_avatar_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="aurora_msgitem_msg_txt_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="aurora_msgitem_receive_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="aurora_msgitem_receiver_avatar_style">
+        <item name="android:layout_width">@dimen/aurora_width_msg_avatar</item>
+        <item name="android:layout_height">@dimen/aurora_height_msg_avatar</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="aurora_msgitem_send_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="aurora_msgitem_sender_avatar_style">
+        <item name="android:layout_width">@dimen/aurora_width_msg_avatar</item>
+        <item name="android:layout_height">@dimen/aurora_height_msg_avatar</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+</resources>

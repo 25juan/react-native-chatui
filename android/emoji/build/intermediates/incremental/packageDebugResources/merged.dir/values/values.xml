@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="color_gray_d9d9d9">#d9d9d9</color>
+    <color name="color_split_line_cccccc">#cccccc</color>
+    <color name="color_split_line_d9d9d9">#d9d9d9</color>
+    <color name="white">#ffffff</color>
+    <dimen name="split_one_pixels">1px</dimen>
+    <string name="app_name">emoji</string>
+    <style name="horizontal_light_thin_divider">
+        <item name="android:layout_height">2px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@color/color_gray_d9d9d9</item>
+    </style>
+</resources>

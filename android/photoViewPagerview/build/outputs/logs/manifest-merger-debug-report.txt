@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:1-12:12
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:3:5-76
+	android:name
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:3:22-73
+application
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:4:5-10:19
+	android:supportsRtl
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:6:9-41
+	android:allowBackup
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:5:9-35
+activity#com.dowin.imageviewer.ImageViewPagerActivity
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:9:9-59
+	android:name
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml:9:19-57
+uses-sdk
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\photoViewPagerview\src\main\AndroidManifest.xml

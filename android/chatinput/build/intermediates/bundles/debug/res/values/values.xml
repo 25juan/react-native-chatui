@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="chat_input"/>
+    <color name="aurora_bg_edittext_default">#e5e5e5</color>
+    <color name="aurora_bg_edittext_focus">#3f80dc</color>
+    <color name="aurora_bg_input_container">#e5e5e5</color>
+    <color name="aurora_bg_input_default">#f3f3f3</color>
+    <color name="aurora_bg_voice_btn_default">#3f80dc</color>
+    <color name="aurora_bg_voice_btn_pressed">#3773cb</color>
+    <color name="aurora_chronometer_text_color">#92A7C5</color>
+    <color name="aurora_cursor_color_default">#8db4eb</color>
+    <color name="aurora_hint_color_input">#8b8b8b</color>
+    <color name="aurora_send_blue">#3f80dc</color>
+    <color name="aurora_text_color_input">#000000</color>
+    <color name="chat_input_bg">#F7F7F7</color>
+    <color name="line_bg">#a9a3a3</color>
+    <color name="voice_re_bg">#dadada</color>
+    <color name="voice_re_bg_default">#F7F7F7</color>
+    <color name="voice_re_bg_focused">#D6D7DC</color>
+    <color name="voice_re_bg_pressed">#D6D7DC</color>
+    <color name="voice_re_bg_selected">#D6D7DC</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ChatInputView"><attr format="dimension|reference" name="inputMarginLeft"/><attr format="dimension|reference" name="inputMarginRight"/><attr format="reference" name="inputEditTextBg"/><attr format="integer" name="inputMaxLines"/><attr format="string" name="inputHint"/><attr format="string" name="inputText"/><attr format="dimension|reference" name="inputTextSize"/><attr format="color|reference" name="inputTextColor"/><attr format="color|reference" name="inputHintColor"/><attr format="reference" name="inputCursorDrawable"/><attr format="reference" name="sendBtnBg"/><attr format="reference" name="sendBtnIcon"/><attr format="reference" name="sendCountBg"/><attr format="reference" name="voiceBtnBg"/><attr format="reference" name="voiceBtnIcon"/><attr format="reference" name="cameraBtnBg"/><attr format="reference" name="cameraBtnIcon"/><attr format="reference" name="photoBtnBg"/><attr format="reference" name="photoBtnIcon"/></declare-styleable>
+    <declare-styleable name="ProgressButton"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="integer" name="max"/></declare-styleable>
+    <declare-styleable name="RecordVoiceButton"><attr format="string" name="voiceBtnText"/><attr format="string" name="tapDownText"/><attr format="reference" name="recordVoiceBtnBg"/><attr format="reference" name="mic_1"/><attr format="reference" name="mic_2"/><attr format="reference" name="mic_3"/><attr format="reference" name="mic_4"/><attr format="reference" name="mic_5"/><attr format="reference" name="cancelRecord"/></declare-styleable>
+    <declare-styleable name="RecordVoiceDialog"><attr format="reference" name="background"/></declare-styleable>
+    <dimen name="aurora_elevation_send_btn">8dp</dimen>
+    <dimen name="aurora_margin_input_left">0dp</dimen>
+    <dimen name="aurora_margin_input_right">0dp</dimen>
+    <dimen name="aurora_padding_input_bottom">0dp</dimen>
+    <dimen name="aurora_padding_input_left">16sp</dimen>
+    <dimen name="aurora_padding_input_right">16sp</dimen>
+    <dimen name="aurora_padding_input_top">0dp</dimen>
+    <dimen name="aurora_radius_btn_default">8dp</dimen>
+    <dimen name="aurora_size_album_button">60dp</dimen>
+    <dimen name="aurora_size_record_button">70dp</dimen>
+    <dimen name="aurora_size_send_btn_default">24dp</dimen>
+    <dimen name="aurora_textsize_chronometer">20sp</dimen>
+    <dimen name="aurora_textsize_input">17sp</dimen>
+    <dimen name="imui_chat_input_width">38dp</dimen>
+    <dimen name="imui_chat_space">4dp</dimen>
+    <dimen name="imui_chat_width">38dp</dimen>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_record_voice_hint">To cancel recording</string>
+    <string name="file_not_found_toast">File not found</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+    <string name="illegal_state_toast">Illegal state, please try again later</string>
+    <string name="preview_play_audio_hint">Preview</string>
+    <string name="record_video_failed">Record video</string>
+    <string name="record_voice_hint">Hold to Talk</string>
+    <string name="record_voice_permission_denied">
+        Please grant the voice permission, otherwise the recording function can not be enabled
+    </string>
+    <string name="record_voice_permission_request">If you want to record, please grant the permission</string>
+    <string name="release_send_voice_hint">Release to Send</string>
+    <string name="rest_record_time_hint">You can also say %s seconds</string>
+    <string name="sdcard_not_exist_toast">Sdcard not exist.</string>
+    <string name="sdcard_not_prepare_toast">Sdcard not prepared</string>
+    <string name="send">Send</string>
+    <string name="time_too_short_toast">Time is too short</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="ChatHeaderTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ChatInputEditText">
+        <item name="android:background">@null</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ChatInputIcon">
+        <item name="android:layout_width">@dimen/imui_chat_width</item>
+        <item name="android:layout_height">@dimen/imui_chat_width</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="ChatMessageInfo">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ChatSendButton">
+        <item name="android:maxLines">5</item>
+    </style>
+    <style name="ChatWhoIsTyping">
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:7:5-11:19
+	android:supportsRtl
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml:8:9-35
+uses-sdk
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		ADDED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml
+		INJECTED from H:\webstorm\lgzq\node_modules\react-native-imui\android\messagelist\src\main\AndroidManifest.xml

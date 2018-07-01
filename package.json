@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "react-native-imui@1.0.7",
+      "H:\\webstorm\\lgzq"
+    ]
+  ],
+  "_from": "react-native-imui@1.0.7",
+  "_id": "react-native-imui@1.0.7",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "sha1-mUspkIlnJEMSUvFfos+xjALm3rA=",
+  "_location": "/react-native-imui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-imui@1.0.7",
+    "name": "react-native-imui",
+    "escapedName": "react-native-imui",
+    "rawSpec": "1.0.7",
+    "saveSpec": null,
+    "fetchSpec": "1.0.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-imui/-/react-native-imui-1.0.7.tgz",
+  "_shasum": "335e972a8a57c354ee30da9d8466d91d7e4a12aa",
+  "_shrinkwrap": null,
+  "_spec": "1.0.7",
+  "_where": "H:\\webstorm\\lgzq",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/reactnativecomponent/react-native-imui/issues"
+  },
+  "dependencies": {},
+  "description": "react-native im ui",
+  "devDependencies": {},
+  "gitHead": "8615656d916352a430e4a6312b4357ac5d6b04f6",
+  "homepage": "https://github.com/reactnativecomponent/react-native-imui#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "",
+  "main": "index.js",
+  "name": "react-native-imui",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.47.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactnativecomponent/react-native-imui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.7"
+}

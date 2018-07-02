@@ -202,17 +202,26 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
                         return;
                     }
                 }
-                if (string.startsWith("http://") || string.startsWith("https://")) {
+                int resId = IdHelper.getDrawable(reactContext, string);
+                if (resId != 0) {
+                    avatarImageView.setImageResource(resId);
+                }else{
                     Glide.with(reactContext)
                             .load(string)
                             .placeholder(IdHelper.getDrawable(reactContext, "aurora_headicon_default"))
                             .into(avatarImageView);
-                } else {
-                    int resId = IdHelper.getDrawable(reactContext, string);
-                    if (resId != 0) {
-                        avatarImageView.setImageResource(resId);
-                    }
                 }
+//                if (string.startsWith("http://") || string.startsWith("https://")) {
+//                    Glide.with(reactContext)
+//                            .load(string)
+//                            .placeholder(IdHelper.getDrawable(reactContext, "aurora_headicon_default"))
+//                            .into(avatarImageView);
+//                } else {
+//                    int resId = IdHelper.getDrawable(reactContext, string);
+//                    if (resId != 0) {
+//                        avatarImageView.setImageResource(resId);
+//                    }
+//                }
             }
 
             @Override

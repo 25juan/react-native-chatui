@@ -180,6 +180,6 @@ message = {  //名片消息
     `react-native项目名/android/app/build.gradle`中找到`defaultConfig`闭包，
     在里面添加` multiDexEnabled true` 代码。然后在`dependencies`中新增依赖`implementation 'com.android.support:multidex:1.0.1'`。清空项目即可运行
 
-2.`Error:java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT error: check logs for details` 错误
+2. `Error:java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT error: check logs for details` 错误
 
    `react-native项目名/android/gradle.properties` 中，新增 `android.enableAapt2=false` 代码即可解决

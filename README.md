@@ -93,6 +93,7 @@ message = {  // image message
       imageHeight:"2848.000000",
       imageWidth:"4288.000000",
       thumbPath:"",
+      path:"",// 图片的路径
       url:""
     }
 }

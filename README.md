@@ -76,7 +76,7 @@ dependencies {
     msgId: "msgid",
     status: "send_going",
     msgType: "text",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     text: "text"
     fromUser: {}
 }
@@ -84,7 +84,7 @@ dependencies {
 message = {  // image message
     msgId: "msgid",
     msgType: "image",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     progress: "progress string"
     mediaPath: "image path"
     fromUser: {},
@@ -100,7 +100,7 @@ message = {  // image message
 message = {  // 语音
     msgId: "msgid",
     msgType: "voice",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     duration: number, // 注意这个值有用户自己设置时长，单位秒
     mediaPath: "voice path"
     fromUser: {},
@@ -115,7 +115,7 @@ message = {  //红包消息
     msgId: "msgid",
     status: "",
     msgType: "redpacket",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     extend: {
       comments:"",//祝福语
       serialNo:"",//
@@ -127,7 +127,7 @@ message = {  //红包领取消息
     msgId: "msgid",
     status: "",
     msgType: "redpacketOpen",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     extend: {
      serialNo:""
      tipMsg:""//红包通知
@@ -139,7 +139,7 @@ message = {  //转账消息
     msgId: "msgid",
     status: "",
     msgType: "transfer",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     extend: {
      amount:"1"
      comments:""
@@ -152,7 +152,7 @@ message = {  //名片消息
     msgId: "msgid",
     status: "",
     msgType: "card",
-    isOutgoing: 0, // 0 代表发送者 ，1代表接受者
+    isOutgoing: "0", // 0 代表发送者 ，1代表接受者
     extend: {
      imgPath:""//头像
      name:""//昵称

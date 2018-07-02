@@ -56,6 +56,7 @@ import java.util.Map;
 import cn.jiguang.imui.commons.ImageLoader;
 import cn.jiguang.imui.commons.models.IMediaFile;
 import cn.jiguang.imui.commons.models.IMessage;
+import cn.jiguang.imui.messagelist.module.RCTMenu;
 import cn.jiguang.imui.messagelist.module.RCTMessage;
 import cn.jiguang.imui.messages.MessageList;
 import cn.jiguang.imui.messages.MsgListAdapter;
@@ -97,7 +98,7 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
     private ReactContext mContext;
     private MessageList msgList;
     private SmartRefreshLayout swipeRefreshLayout;
-
+    private List<RCTMenu> menuList = null;
     static {
         ClassicsHeader.REFRESH_HEADER_PULLDOWN = "";
         ClassicsHeader.REFRESH_HEADER_REFRESHING = "";
@@ -277,10 +278,10 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
         mAdapter.setMsgLongClickListener(new MsgListAdapter.OnMsgLongClickListener<RCTMessage>() {
             @Override
             public void onMessageLongClick(RCTMessage message) {
-                showMenu(reactContext, message);
-//                WritableMap event = Arguments.createMap();
-//                event.putMap("message", message.toWritableMap());
-//                reactContext.getJSModule(RCTEventEmitter.class).receiveEvent(getId(), ON_MSG_LONG_CLICK_EVENT, event);
+                //showMenu(reactContext, message);
+                WritableMap event = Arguments.createMap();
+                event.putMap("message", message.toWritableMap());
+                reactContext.getJSModule(RCTEventEmitter.class).receiveEvent(getId(), ON_MSG_LONG_CLICK_EVENT, event);
             }
         });
 
@@ -366,9 +367,9 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
             }
             List<String> list = new ArrayList<>();
             list.add("保存图片");
-            if (code != null) {
-                list.add("识别图中二维码");
-            }
+//            if (code != null) {
+//                list.add("识别图中二维码");
+//            }
             list.add("取消");
             final String finalCode = code;
             PopupUtil.showDialog(mContext.getCurrentActivity(), null, list, new AdapterView.OnItemClickListener() {
@@ -468,10 +469,21 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
         moreMenuItems.add(new PopupMenuItem(3, R.drawable.nim_picker_image_selected, "云消息记录"));
         return moreMenuItems;
     }
-
+    public RCTMenu configMenuItem(ReadableMap map){
+        String text = map.getString(MenuConstant.text) ;
+        String value = map.getString(MenuConstant.value) ;
+        return new RCTMenu(text, value);
+    }
+    //@ReactProp(name = "menuItem")
+    public void setMenuItem(ReadableArray menuItem) {
+        menuList = new ArrayList<>();
+        for (int i = 0 ; i<menuItem.size() ;i++){
+            RCTMenu rctMenu= configMenuItem(menuItem.getMap(i));
+            menuList.add(rctMenu) ;
+        }
+    }
     @ReactProp(name = "initList")
     public void setInitList(SmartRefreshLayout messageList, ReadableArray messages) {
-
         mAdapter.clear();
         if (messages != null && messages.size() > 0) {
             final List<RCTMessage> list = new ArrayList<>();

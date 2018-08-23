@@ -175,7 +175,7 @@
             [self.audioRecorder stop];
             // 停止录音后释放掉
             self.audioRecorder = nil;
-            if (self.audioRecorderTime < 2) {//时间小于2秒
+            if (self.audioRecorderTime < 1) {//时间小于2秒
                 [[NSNotificationCenter defaultCenter]postNotificationName:@"RecordChangeNotification" object:@"Short"];
                 if ([[NSFileManager defaultManager] fileExistsAtPath:self.filePath]) {
                     NSFileManager *fileMgr = [NSFileManager defaultManager];

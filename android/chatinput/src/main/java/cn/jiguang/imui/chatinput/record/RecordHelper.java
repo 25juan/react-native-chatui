@@ -24,7 +24,7 @@ import cn.jiguang.imui.chatinput.listener.RecordVoiceListener;
 
 public class RecordHelper {
 
-    private static final int MIN_INTERVAL_TIME = 3000;// 1s
+    private static final int MIN_INTERVAL_TIME = 1000;// 1s
 
     private static final int MAX_INTERVAL_TIME = 60;// 1s
 

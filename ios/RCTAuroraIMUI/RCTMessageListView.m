@@ -367,6 +367,9 @@
 
 
 - (void)clickShowOrigImgView:(NSNotification *)noti{
+    
+    return ; // 关闭详情图片弹框
+    
     dispatch_async(dispatch_get_main_queue(), ^{
         NSString *strMsgID = noti.object;
         UIView *topView = [[[[UIApplication sharedApplication] keyWindow] subviews] lastObject];

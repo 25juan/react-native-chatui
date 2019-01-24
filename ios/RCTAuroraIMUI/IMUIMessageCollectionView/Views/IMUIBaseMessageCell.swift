@@ -254,14 +254,14 @@ open class IMUIBaseMessageCell: UICollectionViewCell, IMUIMessageCellProtocal,Me
         if self.message?.type == .text {
             items.add("复制")
         }
-        items.add("删除")
+       // items.add("删除") // 暂时屏蔽删除消息
         let strTime:String = (self.message?.timeStamp)!
         let tmpStamp = (strTime as NSString).integerValue
         let now = Date()
         let timeInterval:TimeInterval = now.timeIntervalSince1970
         let nowTimeStamp = Int(timeInterval)
         if ((nowTimeStamp - tmpStamp < 120) && (self.message?.isOutGoing)!){
-            items.add("撤回")
+            //  items.add("撤回") 暂时屏蔽撤回消息
         }
         let popOver = MenuPopOverView()
         popOver.delegate = self as MenuPopOverViewDelegate
